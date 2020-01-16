@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="287e1e20-a461-4230-8aaa-8844a7a15369" name="Default" comment="" />
+    <list default="true" id="287e1e20-a461-4230-8aaa-8844a7a15369" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,18 +15,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class-csv_importer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class-csv_importer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/class-csv_importer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="254" column="71" lean-forward="true" selection-start-line="254" selection-start-column="71" selection-end-line="254" selection-end-column="71" />
+              <caret line="254" column="71" selection-start-line="254" selection-start-column="71" selection-end-line="254" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uninstall.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uninstall.php">
+      <file leaf-file-name="edit_all_csv.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/views/edit_all_csv.php">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
@@ -44,28 +74,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="csv_importer.pot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/csv_importer.pot">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="class-csv_importer-public.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/class-csv_importer-public.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-887" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="csv_importer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csv_importer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="e#7#809#0#PHP" expanded="true" />
               </folding>
@@ -93,6 +106,9 @@
       <dir>C:\OSPanel\domains\wp-vue-front\wp-content\plugins\csv_importer</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -100,6 +116,8 @@
         <option value="$PROJECT_DIR$/includes/class-csv_importer-activator.php" />
         <option value="$PROJECT_DIR$/includes/views/send_csv_form.php" />
         <option value="$PROJECT_DIR$/includes/class-csv_importer.php" />
+        <option value="$PROJECT_DIR$/test.csv" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -113,10 +131,11 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1208" />
-    <option name="width" value="1353" />
+    <option name="x" value="1135" />
+    <option name="width" value="1426" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -134,6 +153,24 @@
               <item name="csv_importer" type="b2602c69:ProjectViewProjectNode" />
               <item name="csv_importer" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="csv_importer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csv_importer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="csv_importer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csv_importer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="csv_importer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csv_importer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="csv_importer" type="b2602c69:ProjectViewProjectNode" />
@@ -196,25 +233,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579171728625</updated>
-      <workItem from="1579171730114" duration="3004000" />
+      <workItem from="1579171730114" duration="4437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3004000" />
+    <option name="totallyTimeSpent" value="4437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1208" y="0" width="1353" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1135" y="0" width="1426" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32896176" />
       <window_info anchor="right" id="Remote Host" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -276,7 +312,7 @@
     <entry file="file://$PROJECT_DIR$/csv_importer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="e#7#809#0#PHP" expanded="true" />
           </folding>
@@ -303,7 +339,30 @@
     <entry file="file://$PROJECT_DIR$/includes/class-csv_importer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="254" column="71" lean-forward="true" selection-start-line="254" selection-start-column="71" selection-end-line="254" selection-end-column="71" />
+          <caret line="254" column="71" selection-start-line="254" selection-start-column="71" selection-end-line="254" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/views/edit_all_csv.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
