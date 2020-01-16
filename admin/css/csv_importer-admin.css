@@ -1,0 +1,15 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#send-form input,
+#send-form select,
+#send-form textarea
+{
+    width: 100%
+}
+
+.input-table textarea {
+    width: 100%
+}
